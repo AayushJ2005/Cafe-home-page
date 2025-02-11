@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(back.jpg);
+}
+header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+a{
+    text-decoration: none;
+}
+.drop{
+    color: black;
+    font-size: large;
+    font-weight: 500;
+}
+#menu{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    justify-content:center;
+}
+#order{
+    height: 70%;
+    width: 55%;
+    margin: 7px 30px;
+    background-color: #682d74;
+    font-weight: bold;
+    color: white;
+    font-size:large;
+    border: 1px solid #682d74;
+    border-radius: 7px;
+  
+}
+#order:hover{
+    filter: brightness(120%);
+}
+#part1{
+    width: 700px;
+    position: relative;
+    left: 465px;
+    padding: 20px 30px;
+    
+}
+#part2{
+    width: 20%;
+    padding: 5px;
+}
+#logo{
+    height: 150px;
+    width: 140px;
+    background-image: url(cafe\ logo.png);
+    position: relative;
+    left: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+    top: -60px;
+}
+#banner{
+    height: 560px;
+    width: 100%;   
+    z-index: 2;
+    position: relative;
+    top: -150px;
+    
+
+}
+#z4{
+    background-color: #682d74;
+    border: 1px solid #682d74;
+    border-radius: 10px;
+    z-index: 5;
+    width: 650px;
+    height: 50px;
+    position: relative;
+    left: 500px;
+    top: -110px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.click{
+    
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    background-color: #682d74;
+    margin-top: 15px;
+    border: 1px solid #682d74;
+}
+center{
+    z-index: 4;
+    position: relative;
+    top: -60px;
+}
+#orleans{
+    font-family: 'Arvo', serif;
+    font-size: 2.55rem;
+}
+h2{
+    font-family: "Cedarville Cursive", serif;
+    color: #682d74;
+}
+#show{
+    display: flex;
+    
+    padding: 0px 40px 40px 40px;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    transition: 0.4s ease-in;
+    transform: scale(1);
+}
+.shake{
+    height: 100%;
+    width: 100%;
+}
+#menubar{
+    height: 50px;
+    border: 2px solid black;
+    background-color: white;
+    width: 70%;
+    margin: 70px 200px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+#viewmenu{
+    display: flex;
+    gap: 50px;
+    padding-right: 70px;
+    padding-left: 50px;
+    
+}
+#menuhead{
+    font-family: "Cedarville Cursive", serif;
+    font-size: xx-large;
+    align-items:center;
+    padding-left: 150px;
+    font-weight: bold;
+    color: #682d74;
+}
+.menuline{
+    font-size: x-large;
+}
+#history{
+    height: 650px;
+    margin-top: 170px;
+    background-color: #682d74;
+    width: 100%;
+    z-index: 2;
+}
+#celebrate{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 50px 20px 80px 20px;
+    color: white;
+}
+
+#cheer{
+    height: 600px;
+    width: 600px;
+    z-index: 5;
+    position: relative;
+    left: 750px;
+    bottom: 550px;
+    transition: 0.4s;
+}
+#years45{
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Feltro', sans-serif;
+}
+#since{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.45rem;
+}
+.histdesc{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding: 20px 30px;
+    text-align: left;
+    padding-left: 50px;
+}
+#tiles{
+    background-image: url(back\ 2.jpg);
+    display: flex;
+    width: 100%;
+    height: 370px;
+    justify-content: space-evenly;
+    padding-top:50px;
+    
+}
+.tileimg{
+    height: 300px;
+    width: 380px;
+    transition: 0.4s;
+}
+#reels{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    overflow: hidden;
+
+}
+.reel{
+    height: 350px;
+    width: 300px;
+}
+#thetwo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    
+}
+.thetwo{
+    height: 100%;
+    width: 759px;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.thetwo:hover{
+    filter: brightness(120%);
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    background-image: url(back\ 2.jpg);
+}
+#upperfooot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+#phone{
+    margin: 30px 50px 30px 80px;
+    height: 300px;
+}
+#link{
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+#imgdiv{
+    width: 25%;
+    height: 300px;
+}
+#connect{
+    height: 300px;
+    width: 25%;
+    padding-top: 20px;
+}
+.botlink{
+    list-style-type: none;
+    text-align: center;
+}
+#quicklink{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.linkpoint{
+    font-size: x-large;
+}
+#sponsor{
+    padding-top: 100px;
+
+}
+#ad{
+    height: 100px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.ri-twitter-fill{
+    height: 30px;
+    width: 30px;
+}
+#lowerfoot{
+    height: 200px;
+    height: 100px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 20px 20px 120px;
+}
+.box:hover{
+    transform: scale(1.2);
+}
+#cheer:hover{
+    height: 650px;
+    width: 650px;
+}
+.tileimg:hover{
+    height: 330px;
+    width: 410px;
+}
